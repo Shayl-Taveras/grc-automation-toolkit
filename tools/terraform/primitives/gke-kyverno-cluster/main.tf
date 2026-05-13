@@ -28,3 +28,25 @@ locals {
   }
 }
 
+
+# Control: SC-28 (Cryptographic Protection at Rest)
+# Application-layer secrets encryption for GKE etcd via customer-managed key.
+
+resource "google_kms_key_ring" "sc28_gke_keyring" {
+  name     = "sc28-${var.cluster_name}-keyring"
+  location = var.region
+}
+
+resource "google_kms_crypto_key" "sc28_gke_secrets" {
+  name            = "sc28-${var.cluster_name}-secrets"
+  key_ring        = google_kms_key_ring.sc28_gke_keyring.id
+  rotation_period = "7776000s" # 90 days
+
+  labels = local.control_labels.sc28
+}
+
+resource "google_kms_crypto_key_iam_member" "gke_service_agent_kms" {
+  crypto_key_id = google_kms_crypto_key.sc28_gke_secrets.id
+  role          = "roles/cloudkms.cryptoKeyEncrypterDecrypter"
+  member        = "serviceAccount:service-${data.google_project.current.number}@container-engine-robot.iam.gserviceaccount.com"
+}
