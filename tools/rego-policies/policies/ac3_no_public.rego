@@ -1,3 +1,9 @@
+# Control Coverage: AC-3
+# Framework: NIST 800-53 Rev 5
+# Severity: Critical
+# Enforces: GCS buckets must set uniform_bucket_level_access=true and public_access_prevention=enforced
+#           Firewall rules must not expose ports 22 or 3389 to 0.0.0.0/0
+# Remediation: Lock down bucket access settings; narrow or remove open firewall rules
 package compliance.ac3
 
   import rego.v1

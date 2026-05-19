@@ -1,11 +1,8 @@
-# METADATA
-#   title: SC-28 - Encryption at Rest (GCS)
-# description: "Every google_storage_bucket must encrypt at rest with a customer-managed encryption key (CMEK)."
-# custom:
-# control_id: SC-28
-# framework: nist-800-53
-# severity: high
-# remediation: "Add an encryption { default_kms_key_name = ... } block referencing a google_kms_crypto_key you control."
+# Control Coverage: SC-28
+# Framework: NIST 800-53 Rev 5
+# Severity: High
+# Enforces: Every google_storage_bucket must have CMEK via encryption { default_kms_key_name }
+# Remediation: Add an encryption block referencing a google_kms_crypto_key resource
 package compliance.sc28
 
 import rego.v1
