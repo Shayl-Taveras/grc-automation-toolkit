@@ -50,7 +50,10 @@ jobs:
         run: |
           terraform init -input=false
           terraform validate
-          terraform plan -out=tfplan -no-color | tee plan.txt
+          terraform plan -out=tfplan -no-color \
+            -var="project_name=cgep-lab" \
+            -var="environment=lab" \
+            | tee plan.txt
           terraform show -json tfplan > plan.json
 
       - name: Conftest policy gate
@@ -83,6 +86,7 @@ jobs:
         if: always()
         working-directory: ${{ env.TF_WORKING_DIR }}
         run: |
+          mkdir -p $GITHUB_WORKSPACE/evidence
           tfsec . --format sarif --out $GITHUB_WORKSPACE/evidence/tfsec.sarif || true
           python3 <<'PYEOF'
           import json, sys, os
