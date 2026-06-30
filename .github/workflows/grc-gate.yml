@@ -53,6 +53,7 @@ jobs:
           terraform plan -out=tfplan -no-color \
             -var="project_name=cgep-lab" \
             -var="environment=lab" \
+            -var="bucket_suffix=citest" \
             | tee plan.txt
           terraform show -json tfplan > plan.json
 
