@@ -13,3 +13,7 @@ GRC-Project-Log.md
 *.tfstate.backup
 tfplan
 *.tfstate.lock.info
+# Signed evidence bundles (durable copy lives in the vault; receipt.json is committed)
+evidence-*.tar.gz
+evidence-*.tar.gz.sha256
+evidence-*.tar.gz.sig.bundle
