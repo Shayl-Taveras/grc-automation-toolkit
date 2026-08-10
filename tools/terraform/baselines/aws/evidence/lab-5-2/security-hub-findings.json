@@ -2,13 +2,13 @@
     "Findings": [
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/S3.3/finding/20278df0-ddfd-4868-a790-e23681a2f9b3",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/S3.3/finding/20278df0-ddfd-4868-a790-e23681a2f9b3",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/S3.3",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Effects/Data Exposure"
             ],
@@ -36,7 +36,7 @@
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "This finding has a compliance status of NOT AVAILABLE because AWS Config sent Security Hub a finding with a compliance state of Not Applicable. The potential reasons for a Not Applicable finding from Config are that (1) a resource has been moved out of scope of the Config rule; (2) the Config rule has been deleted; (3) the resource has been deleted; or (4) the logic of the Config rule itself includes scenarios where Not Applicable is returned. The specific reason why Not Applicable is returned is not available in the Config rule evaluation.",
                 "Resources:0/Id": "arn:aws:s3:::cgep-lab-config-97c26f36",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/S3.3/finding/20278df0-ddfd-4868-a790-e23681a2f9b3",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/S3.3/finding/20278df0-ddfd-4868-a790-e23681a2f9b3",
                 "PreviousComplianceStatus": "PASSED"
             },
             "Resources": [
@@ -99,13 +99,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/S3.2/finding/141abba6-9699-4d0e-99e3-8c995b9b2e2b",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/S3.2/finding/141abba6-9699-4d0e-99e3-8c995b9b2e2b",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/S3.2",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Effects/Data Exposure"
             ],
@@ -133,7 +133,7 @@
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "This finding has a compliance status of NOT AVAILABLE because AWS Config sent Security Hub a finding with a compliance state of Not Applicable. The potential reasons for a Not Applicable finding from Config are that (1) a resource has been moved out of scope of the Config rule; (2) the Config rule has been deleted; (3) the resource has been deleted; or (4) the logic of the Config rule itself includes scenarios where Not Applicable is returned. The specific reason why Not Applicable is returned is not available in the Config rule evaluation.",
                 "Resources:0/Id": "arn:aws:s3:::cgep-lab-config-97c26f36",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/S3.2/finding/141abba6-9699-4d0e-99e3-8c995b9b2e2b",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/S3.2/finding/141abba6-9699-4d0e-99e3-8c995b9b2e2b",
                 "PreviousComplianceStatus": "PASSED"
             },
             "Resources": [
@@ -196,13 +196,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/Inspector.3/finding/bcf3d9af-d67f-4dd3-8887-c5ccd12e83e7",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/Inspector.3/finding/bcf3d9af-d67f-4dd3-8887-c5ccd12e83e7",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/Inspector.3",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -228,13 +228,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/Inspector.3/finding/bcf3d9af-d67f-4dd3-8887-c5ccd12e83e7"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/Inspector.3/finding/bcf3d9af-d67f-4dd3-8887-c5ccd12e83e7"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -266,13 +266,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.56/finding/974000c8-edb3-4cc9-9b31-9d10c1d28301",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.56/finding/974000c8-edb3-4cc9-9b31-9d10c1d28301",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/EC2.56",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -299,13 +299,13 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "This VPC does not use a VPC endpoint for service ecr.dkr.",
-                "Resources:0/Id": "arn:aws:ec2:us-east-1:871159689384:vpc/vpc-0ab21243ab999c75c",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.56/finding/974000c8-edb3-4cc9-9b31-9d10c1d28301"
+                "Resources:0/Id": "arn:aws:ec2:us-east-1:111111111111:vpc/vpc-0ab21243ab999c75c",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.56/finding/974000c8-edb3-4cc9-9b31-9d10c1d28301"
             },
             "Resources": [
                 {
                     "Type": "AwsEc2Vpc",
-                    "Id": "arn:aws:ec2:us-east-1:871159689384:vpc/vpc-0ab21243ab999c75c",
+                    "Id": "arn:aws:ec2:us-east-1:111111111111:vpc/vpc-0ab21243ab999c75c",
                     "Partition": "aws",
                     "Region": "us-east-1",
                     "Details": {
@@ -374,13 +374,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.2/finding/d625b786-9996-45ac-9f44-65f76802d11f",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.2/finding/d625b786-9996-45ac-9f44-65f76802d11f",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/EC2.2",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -406,20 +406,20 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:ec2:us-east-1:871159689384:security-group/sg-0bb976938270ad3fa",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.2/finding/d625b786-9996-45ac-9f44-65f76802d11f"
+                "Resources:0/Id": "arn:aws:ec2:us-east-1:111111111111:security-group/sg-0bb976938270ad3fa",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.2/finding/d625b786-9996-45ac-9f44-65f76802d11f"
             },
             "Resources": [
                 {
                     "Type": "AwsEc2SecurityGroup",
-                    "Id": "arn:aws:ec2:us-east-1:871159689384:security-group/sg-0bb976938270ad3fa",
+                    "Id": "arn:aws:ec2:us-east-1:111111111111:security-group/sg-0bb976938270ad3fa",
                     "Partition": "aws",
                     "Region": "us-east-1",
                     "Details": {
                         "AwsEc2SecurityGroup": {
                             "GroupName": "default",
                             "GroupId": "sg-0bb976938270ad3fa",
-                            "OwnerId": "871159689384",
+                            "OwnerId": "111111111111",
                             "VpcId": "vpc-0ab21243ab999c75c",
                             "IpPermissions": [
                                 {
@@ -427,7 +427,7 @@
                                     "UserIdGroupPairs": [
                                         {
                                             "GroupId": "sg-0bb976938270ad3fa",
-                                            "UserId": "871159689384"
+                                            "UserId": "111111111111"
                                         }
                                     ]
                                 }
@@ -490,13 +490,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.18/finding/acbc9c03-25bb-4ac3-8496-c938a97d6aed",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.18/finding/acbc9c03-25bb-4ac3-8496-c938a97d6aed",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/IAM.18",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -522,13 +522,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.18/finding/acbc9c03-25bb-4ac3-8496-c938a97d6aed"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.18/finding/acbc9c03-25bb-4ac3-8496-c938a97d6aed"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -563,13 +563,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.19/finding/614cce11-9f94-4184-90f1-993fd4b83c07",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.19/finding/614cce11-9f94-4184-90f1-993fd4b83c07",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/EC2.19",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -595,20 +595,20 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:ec2:us-east-1:871159689384:security-group/sg-0bb976938270ad3fa",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.19/finding/614cce11-9f94-4184-90f1-993fd4b83c07"
+                "Resources:0/Id": "arn:aws:ec2:us-east-1:111111111111:security-group/sg-0bb976938270ad3fa",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.19/finding/614cce11-9f94-4184-90f1-993fd4b83c07"
             },
             "Resources": [
                 {
                     "Type": "AwsEc2SecurityGroup",
-                    "Id": "arn:aws:ec2:us-east-1:871159689384:security-group/sg-0bb976938270ad3fa",
+                    "Id": "arn:aws:ec2:us-east-1:111111111111:security-group/sg-0bb976938270ad3fa",
                     "Partition": "aws",
                     "Region": "us-east-1",
                     "Details": {
                         "AwsEc2SecurityGroup": {
                             "GroupName": "default",
                             "GroupId": "sg-0bb976938270ad3fa",
-                            "OwnerId": "871159689384",
+                            "OwnerId": "111111111111",
                             "VpcId": "vpc-0ab21243ab999c75c",
                             "IpPermissions": [
                                 {
@@ -616,7 +616,7 @@
                                     "UserIdGroupPairs": [
                                         {
                                             "GroupId": "sg-0bb976938270ad3fa",
-                                            "UserId": "871159689384"
+                                            "UserId": "111111111111"
                                         }
                                     ]
                                 }
@@ -679,13 +679,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/Inspector.1/finding/1ebcedee-1ba0-4f30-b91c-96fe62f53d68",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/Inspector.1/finding/1ebcedee-1ba0-4f30-b91c-96fe62f53d68",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/Inspector.1",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -711,13 +711,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/Inspector.1/finding/1ebcedee-1ba0-4f30-b91c-96fe62f53d68"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/Inspector.1/finding/1ebcedee-1ba0-4f30-b91c-96fe62f53d68"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -749,13 +749,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.10/finding/9a3e94c4-8b5b-498f-bc81-cd77f4658a7e",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.10/finding/9a3e94c4-8b5b-498f-bc81-cd77f4658a7e",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/EC2.10",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -782,13 +782,13 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "This VPC does not use a VPC endpoint for service ec2.",
-                "Resources:0/Id": "arn:aws:ec2:us-east-1:871159689384:vpc/vpc-0ab21243ab999c75c",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.10/finding/9a3e94c4-8b5b-498f-bc81-cd77f4658a7e"
+                "Resources:0/Id": "arn:aws:ec2:us-east-1:111111111111:vpc/vpc-0ab21243ab999c75c",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.10/finding/9a3e94c4-8b5b-498f-bc81-cd77f4658a7e"
             },
             "Resources": [
                 {
                     "Type": "AwsEc2Vpc",
-                    "Id": "arn:aws:ec2:us-east-1:871159689384:vpc/vpc-0ab21243ab999c75c",
+                    "Id": "arn:aws:ec2:us-east-1:111111111111:vpc/vpc-0ab21243ab999c75c",
                     "Partition": "aws",
                     "Region": "us-east-1",
                     "Details": {
@@ -851,13 +851,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.16/finding/8420ea33-b00c-4538-92d3-4775facf088c",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.16/finding/8420ea33-b00c-4538-92d3-4775facf088c",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/EC2.16",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -883,20 +883,20 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:ec2:us-east-1:871159689384:network-acl/acl-032024b836ceafbdf",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.16/finding/8420ea33-b00c-4538-92d3-4775facf088c"
+                "Resources:0/Id": "arn:aws:ec2:us-east-1:111111111111:network-acl/acl-032024b836ceafbdf",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.16/finding/8420ea33-b00c-4538-92d3-4775facf088c"
             },
             "Resources": [
                 {
                     "Type": "AwsEc2NetworkAcl",
-                    "Id": "arn:aws:ec2:us-east-1:871159689384:network-acl/acl-032024b836ceafbdf",
+                    "Id": "arn:aws:ec2:us-east-1:111111111111:network-acl/acl-032024b836ceafbdf",
                     "Partition": "aws",
                     "Region": "us-east-1",
                     "Details": {
                         "AwsEc2NetworkAcl": {
                             "IsDefault": true,
                             "NetworkAclId": "acl-032024b836ceafbdf",
-                            "OwnerId": "871159689384",
+                            "OwnerId": "111111111111",
                             "VpcId": "vpc-0ab21243ab999c75c",
                             "Associations": [
                                 {
@@ -997,13 +997,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/Account.1/finding/28c72e0d-4186-4da4-acf8-2da8edbc6acb",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/Account.1/finding/28c72e0d-4186-4da4-acf8-2da8edbc6acb",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/Account.1",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -1029,13 +1029,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/Account.1/finding/28c72e0d-4186-4da4-acf8-2da8edbc6acb"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/Account.1/finding/28c72e0d-4186-4da4-acf8-2da8edbc6acb"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -1074,13 +1074,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.7/finding/1bbfe676-c32c-48ce-b1d9-12e039b86f87",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.7/finding/1bbfe676-c32c-48ce-b1d9-12e039b86f87",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/EC2.7",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -1107,13 +1107,13 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "EBS Encryption by default is not enabled.",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.7/finding/1bbfe676-c32c-48ce-b1d9-12e039b86f87"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.7/finding/1bbfe676-c32c-48ce-b1d9-12e039b86f87"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -1157,13 +1157,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.6/finding/0bd6104a-7385-4cd7-8fa5-ab4f36faa9b2",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.6/finding/0bd6104a-7385-4cd7-8fa5-ab4f36faa9b2",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/EC2.6",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -1189,13 +1189,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:ec2:us-east-1:871159689384:vpc/vpc-0ab21243ab999c75c",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.6/finding/0bd6104a-7385-4cd7-8fa5-ab4f36faa9b2"
+                "Resources:0/Id": "arn:aws:ec2:us-east-1:111111111111:vpc/vpc-0ab21243ab999c75c",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.6/finding/0bd6104a-7385-4cd7-8fa5-ab4f36faa9b2"
             },
             "Resources": [
                 {
                     "Type": "AwsEc2Vpc",
-                    "Id": "arn:aws:ec2:us-east-1:871159689384:vpc/vpc-0ab21243ab999c75c",
+                    "Id": "arn:aws:ec2:us-east-1:111111111111:vpc/vpc-0ab21243ab999c75c",
                     "Partition": "aws",
                     "Region": "us-east-1",
                     "Details": {
@@ -1257,13 +1257,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/SSM.7/finding/865f4133-26ea-4385-aeb5-c42a1eaa4304",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/SSM.7/finding/865f4133-26ea-4385-aeb5-c42a1eaa4304",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/SSM.7",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -1289,13 +1289,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/SSM.7/finding/865f4133-26ea-4385-aeb5-c42a1eaa4304"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/SSM.7/finding/865f4133-26ea-4385-aeb5-c42a1eaa4304"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -1327,13 +1327,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.17/finding/d3520a87-20de-4ada-a451-c73418394151",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.17/finding/d3520a87-20de-4ada-a451-c73418394151",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/IAM.17",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -1359,13 +1359,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.17/finding/d3520a87-20de-4ada-a451-c73418394151"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.17/finding/d3520a87-20de-4ada-a451-c73418394151"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -1400,13 +1400,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/Account.2/finding/39f8632f-5cea-49cd-ab98-ddb14cca52cb",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/Account.2/finding/39f8632f-5cea-49cd-ab98-ddb14cca52cb",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/Account.2",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -1432,13 +1432,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/Account.2/finding/39f8632f-5cea-49cd-ab98-ddb14cca52cb"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/Account.2/finding/39f8632f-5cea-49cd-ab98-ddb14cca52cb"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -1474,13 +1474,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.9/finding/23c6f75e-b033-4ec1-a065-77b63871eee3",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.9/finding/23c6f75e-b033-4ec1-a065-77b63871eee3",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/IAM.9",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -1506,13 +1506,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.9/finding/23c6f75e-b033-4ec1-a065-77b63871eee3"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.9/finding/23c6f75e-b033-4ec1-a065-77b63871eee3"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -1556,13 +1556,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/EMR.2/finding/79b82345-f0ce-4839-8c16-a87b4a0d0037",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/EMR.2/finding/79b82345-f0ce-4839-8c16-a87b4a0d0037",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/EMR.2",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -1588,13 +1588,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/EMR.2/finding/79b82345-f0ce-4839-8c16-a87b4a0d0037"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/EMR.2/finding/79b82345-f0ce-4839-8c16-a87b4a0d0037"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -1645,13 +1645,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/CloudWatch.16/finding/a3b4d67b-e8cd-4608-ab38-d42386807185",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/CloudWatch.16/finding/a3b4d67b-e8cd-4608-ab38-d42386807185",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/CloudWatch.16",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -1678,13 +1678,13 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "retentionInDays is less than MinRetentionTime 365 days. Current retentionInDays: 30 days",
-                "Resources:0/Id": "arn:aws:logs:us-east-1:871159689384:log-group:/aws/lambda/access-review-function:*",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/CloudWatch.16/finding/a3b4d67b-e8cd-4608-ab38-d42386807185"
+                "Resources:0/Id": "arn:aws:logs:us-east-1:111111111111:log-group:/aws/lambda/access-review-function:*",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/CloudWatch.16/finding/a3b4d67b-e8cd-4608-ab38-d42386807185"
             },
             "Resources": [
                 {
                     "Type": "AwsLogsLogGroup",
-                    "Id": "arn:aws:logs:us-east-1:871159689384:log-group:/aws/lambda/access-review-function:*",
+                    "Id": "arn:aws:logs:us-east-1:111111111111:log-group:/aws/lambda/access-review-function:*",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -1732,13 +1732,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/Inspector.2/finding/0ca8a70d-08e6-4548-af8e-37eb80241b5d",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/Inspector.2/finding/0ca8a70d-08e6-4548-af8e-37eb80241b5d",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/Inspector.2",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -1764,13 +1764,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/Inspector.2/finding/0ca8a70d-08e6-4548-af8e-37eb80241b5d"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/Inspector.2/finding/0ca8a70d-08e6-4548-af8e-37eb80241b5d"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -1802,13 +1802,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/S3.3/finding/0a88df61-47f6-41da-bb5e-8a012e471366",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/S3.3/finding/0a88df61-47f6-41da-bb5e-8a012e471366",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/S3.3",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Effects/Data Exposure"
             ],
@@ -1834,20 +1834,20 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:s3:::access-review-deploy-871159689384",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/S3.3/finding/0a88df61-47f6-41da-bb5e-8a012e471366"
+                "Resources:0/Id": "arn:aws:s3:::access-review-deploy-111111111111",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/S3.3/finding/0a88df61-47f6-41da-bb5e-8a012e471366"
             },
             "Resources": [
                 {
                     "Type": "AwsS3Bucket",
-                    "Id": "arn:aws:s3:::access-review-deploy-871159689384",
+                    "Id": "arn:aws:s3:::access-review-deploy-111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1",
                     "Details": {
                         "AwsS3Bucket": {
                             "OwnerId": "0d50655d5a002dbd06d0ae878ae1aa5a6063b83138c20ce55da70a7fb535dae4",
                             "CreatedAt": "2026-05-02T17:06:28.000Z",
-                            "Name": "access-review-deploy-871159689384"
+                            "Name": "access-review-deploy-111111111111"
                         }
                     }
                 }
@@ -1898,13 +1898,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/S3.3/finding/06089515-f403-4868-a78f-d261ecb8b753",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/S3.3/finding/06089515-f403-4868-a78f-d261ecb8b753",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/S3.3",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Effects/Data Exposure"
             ],
@@ -1931,7 +1931,7 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "Resources:0/Id": "arn:aws:s3:::cgep-lab-dev-data-a3f098a8",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/S3.3/finding/06089515-f403-4868-a78f-d261ecb8b753"
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/S3.3/finding/06089515-f403-4868-a78f-d261ecb8b753"
             },
             "Resources": [
                 {
@@ -2000,13 +2000,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/S3.3/finding/e34d072c-5170-4f5a-97c0-51ee498d5ef9",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/S3.3/finding/e34d072c-5170-4f5a-97c0-51ee498d5ef9",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/S3.3",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Effects/Data Exposure"
             ],
@@ -2032,20 +2032,20 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:s3:::config-bucket-871159689384",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/S3.3/finding/e34d072c-5170-4f5a-97c0-51ee498d5ef9"
+                "Resources:0/Id": "arn:aws:s3:::config-bucket-111111111111",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/S3.3/finding/e34d072c-5170-4f5a-97c0-51ee498d5ef9"
             },
             "Resources": [
                 {
                     "Type": "AwsS3Bucket",
-                    "Id": "arn:aws:s3:::config-bucket-871159689384",
+                    "Id": "arn:aws:s3:::config-bucket-111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1",
                     "Details": {
                         "AwsS3Bucket": {
                             "OwnerId": "0d50655d5a002dbd06d0ae878ae1aa5a6063b83138c20ce55da70a7fb535dae4",
                             "CreatedAt": "2026-05-21T21:32:41.000Z",
-                            "Name": "config-bucket-871159689384"
+                            "Name": "config-bucket-111111111111"
                         }
                     }
                 }
@@ -2096,13 +2096,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/S3.3/finding/c52b61f7-e170-44a6-81f0-e54c15b8957d",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/S3.3/finding/c52b61f7-e170-44a6-81f0-e54c15b8957d",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/S3.3",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Effects/Data Exposure"
             ],
@@ -2128,25 +2128,25 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:s3:::access-review-reports-871159689384",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/S3.3/finding/c52b61f7-e170-44a6-81f0-e54c15b8957d"
+                "Resources:0/Id": "arn:aws:s3:::access-review-reports-111111111111",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/S3.3/finding/c52b61f7-e170-44a6-81f0-e54c15b8957d"
             },
             "Resources": [
                 {
                     "Type": "AwsS3Bucket",
-                    "Id": "arn:aws:s3:::access-review-reports-871159689384",
+                    "Id": "arn:aws:s3:::access-review-reports-111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1",
                     "Tags": {
                         "aws:cloudformation:stack-name": "access-review",
-                        "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:871159689384:stack/access-review/4edffa00-4652-11f1-b413-0e7edd51f2dd",
+                        "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:111111111111:stack/access-review/4edffa00-4652-11f1-b413-0e7edd51f2dd",
                         "aws:cloudformation:logical-id": "ReportBucket"
                     },
                     "Details": {
                         "AwsS3Bucket": {
                             "OwnerId": "0d50655d5a002dbd06d0ae878ae1aa5a6063b83138c20ce55da70a7fb535dae4",
                             "CreatedAt": "2026-05-02T18:11:26.000Z",
-                            "Name": "access-review-reports-871159689384"
+                            "Name": "access-review-reports-111111111111"
                         }
                     }
                 }
@@ -2197,13 +2197,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/S3.3/finding/c485b146-6552-4dde-be3e-3cf213b99887",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/S3.3/finding/c485b146-6552-4dde-be3e-3cf213b99887",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/S3.3",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Effects/Data Exposure"
             ],
@@ -2230,7 +2230,7 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "Resources:0/Id": "arn:aws:s3:::cgep-lab-dev-logs-a3f098a8",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/S3.3/finding/c485b146-6552-4dde-be3e-3cf213b99887"
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/S3.3/finding/c485b146-6552-4dde-be3e-3cf213b99887"
             },
             "Resources": [
                 {
@@ -2299,13 +2299,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/S3.3/finding/814c3405-37fe-4d89-96d7-6358ac08c825",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/S3.3/finding/814c3405-37fe-4d89-96d7-6358ac08c825",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/S3.3",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Effects/Data Exposure"
             ],
@@ -2332,7 +2332,7 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "Resources:0/Id": "arn:aws:s3:::cgep-lab-grc-evidence-vault-cd91606f",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/S3.3/finding/814c3405-37fe-4d89-96d7-6358ac08c825"
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/S3.3/finding/814c3405-37fe-4d89-96d7-6358ac08c825"
             },
             "Resources": [
                 {
@@ -2401,13 +2401,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/S3.3/finding/c75c536a-7c7d-4369-9422-acd2c6415973",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/S3.3/finding/c75c536a-7c7d-4369-9422-acd2c6415973",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/S3.3",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Effects/Data Exposure"
             ],
@@ -2434,7 +2434,7 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "Resources:0/Id": "arn:aws:s3:::cgep-lab-cloudtrail-97c26f36",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/S3.3/finding/c75c536a-7c7d-4369-9422-acd2c6415973"
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/S3.3/finding/c75c536a-7c7d-4369-9422-acd2c6415973"
             },
             "Resources": [
                 {
@@ -2503,13 +2503,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.14/finding/9bdc9a74-db7e-41bf-bb07-0a878fdd0258",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.14/finding/9bdc9a74-db7e-41bf-bb07-0a878fdd0258",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/EC2.14",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -2535,20 +2535,20 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:ec2:us-east-1:871159689384:security-group/sg-0bb976938270ad3fa",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.14/finding/9bdc9a74-db7e-41bf-bb07-0a878fdd0258"
+                "Resources:0/Id": "arn:aws:ec2:us-east-1:111111111111:security-group/sg-0bb976938270ad3fa",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.14/finding/9bdc9a74-db7e-41bf-bb07-0a878fdd0258"
             },
             "Resources": [
                 {
                     "Type": "AwsEc2SecurityGroup",
-                    "Id": "arn:aws:ec2:us-east-1:871159689384:security-group/sg-0bb976938270ad3fa",
+                    "Id": "arn:aws:ec2:us-east-1:111111111111:security-group/sg-0bb976938270ad3fa",
                     "Partition": "aws",
                     "Region": "us-east-1",
                     "Details": {
                         "AwsEc2SecurityGroup": {
                             "GroupName": "default",
                             "GroupId": "sg-0bb976938270ad3fa",
-                            "OwnerId": "871159689384",
+                            "OwnerId": "111111111111",
                             "VpcId": "vpc-0ab21243ab999c75c",
                             "IpPermissions": [
                                 {
@@ -2556,7 +2556,7 @@
                                     "UserIdGroupPairs": [
                                         {
                                             "GroupId": "sg-0bb976938270ad3fa",
-                                            "UserId": "871159689384"
+                                            "UserId": "111111111111"
                                         }
                                     ]
                                 }
@@ -2605,13 +2605,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.58/finding/ba3cafdf-2b2c-469b-b805-792f7a06117f",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.58/finding/ba3cafdf-2b2c-469b-b805-792f7a06117f",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/EC2.58",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -2638,13 +2638,13 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "This VPC does not use a VPC endpoint for service ssm-contacts.",
-                "Resources:0/Id": "arn:aws:ec2:us-east-1:871159689384:vpc/vpc-0ab21243ab999c75c",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.58/finding/ba3cafdf-2b2c-469b-b805-792f7a06117f"
+                "Resources:0/Id": "arn:aws:ec2:us-east-1:111111111111:vpc/vpc-0ab21243ab999c75c",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.58/finding/ba3cafdf-2b2c-469b-b805-792f7a06117f"
             },
             "Resources": [
                 {
                     "Type": "AwsEc2Vpc",
-                    "Id": "arn:aws:ec2:us-east-1:871159689384:vpc/vpc-0ab21243ab999c75c",
+                    "Id": "arn:aws:ec2:us-east-1:111111111111:vpc/vpc-0ab21243ab999c75c",
                     "Partition": "aws",
                     "Region": "us-east-1",
                     "Details": {
@@ -2713,13 +2713,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/Inspector.4/finding/6d06ea66-2c5d-4515-a711-bfbc6a21bf6e",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/Inspector.4/finding/6d06ea66-2c5d-4515-a711-bfbc6a21bf6e",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/Inspector.4",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -2745,13 +2745,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/Inspector.4/finding/6d06ea66-2c5d-4515-a711-bfbc6a21bf6e"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/Inspector.4/finding/6d06ea66-2c5d-4515-a711-bfbc6a21bf6e"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -2783,13 +2783,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.1/finding/a5b885e2-3d1f-4ad0-87da-3cb5f5b13eb8",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.1/finding/a5b885e2-3d1f-4ad0-87da-3cb5f5b13eb8",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/EC2.1",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Effects/Data Exposure"
             ],
@@ -2815,13 +2815,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.1/finding/a5b885e2-3d1f-4ad0-87da-3cb5f5b13eb8"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.1/finding/a5b885e2-3d1f-4ad0-87da-3cb5f5b13eb8"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -2872,13 +2872,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/SSM.6/finding/3e8308c1-6512-4d7a-a6d2-068c7dce7820",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/SSM.6/finding/3e8308c1-6512-4d7a-a6d2-068c7dce7820",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/SSM.6",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -2904,13 +2904,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/SSM.6/finding/3e8308c1-6512-4d7a-a6d2-068c7dce7820"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/SSM.6/finding/3e8308c1-6512-4d7a-a6d2-068c7dce7820"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -2942,13 +2942,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.14/finding/423d7ab2-2312-4c75-b4db-75fc688a6e81",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.14/finding/423d7ab2-2312-4c75-b4db-75fc688a6e81",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/IAM.14",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -2974,13 +2974,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.14/finding/423d7ab2-2312-4c75-b4db-75fc688a6e81"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.14/finding/423d7ab2-2312-4c75-b4db-75fc688a6e81"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -3015,13 +3015,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.12/finding/e8d6b593-11c9-4d5c-83ea-9e90585fde58",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.12/finding/e8d6b593-11c9-4d5c-83ea-9e90585fde58",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/IAM.12",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -3047,13 +3047,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.12/finding/e8d6b593-11c9-4d5c-83ea-9e90585fde58"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.12/finding/e8d6b593-11c9-4d5c-83ea-9e90585fde58"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -3088,13 +3088,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/CloudTrail.2/finding/04b8280e-836a-41eb-864f-e374202e6a7f",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/CloudTrail.2/finding/04b8280e-836a-41eb-864f-e374202e6a7f",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/CloudTrail.2",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -3120,13 +3120,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:cloudtrail:us-east-1:871159689384:trail/cgep-lab-mgmt",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/CloudTrail.2/finding/04b8280e-836a-41eb-864f-e374202e6a7f"
+                "Resources:0/Id": "arn:aws:cloudtrail:us-east-1:111111111111:trail/cgep-lab-mgmt",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/CloudTrail.2/finding/04b8280e-836a-41eb-864f-e374202e6a7f"
             },
             "Resources": [
                 {
                     "Type": "AwsCloudTrailTrail",
-                    "Id": "arn:aws:cloudtrail:us-east-1:871159689384:trail/cgep-lab-mgmt",
+                    "Id": "arn:aws:cloudtrail:us-east-1:111111111111:trail/cgep-lab-mgmt",
                     "Partition": "aws",
                     "Region": "us-east-1",
                     "Tags": {
@@ -3193,13 +3193,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.6/finding/3af8d9c5-d879-4858-b5e1-a73a640e3cc2",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.6/finding/3af8d9c5-d879-4858-b5e1-a73a640e3cc2",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/IAM.6",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -3225,13 +3225,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.6/finding/3af8d9c5-d879-4858-b5e1-a73a640e3cc2"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.6/finding/3af8d9c5-d879-4858-b5e1-a73a640e3cc2"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -3278,13 +3278,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/S3.2/finding/624124bb-2e33-43e3-b05d-f9023fcb60cf",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/S3.2/finding/624124bb-2e33-43e3-b05d-f9023fcb60cf",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/S3.2",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Effects/Data Exposure"
             ],
@@ -3311,7 +3311,7 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "Resources:0/Id": "arn:aws:s3:::cgep-lab-cloudtrail-97c26f36",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/S3.2/finding/624124bb-2e33-43e3-b05d-f9023fcb60cf"
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/S3.2/finding/624124bb-2e33-43e3-b05d-f9023fcb60cf"
             },
             "Resources": [
                 {
@@ -3380,13 +3380,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/S3.2/finding/db8a64dc-2057-4e36-99c6-7aec8cc87156",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/S3.2/finding/db8a64dc-2057-4e36-99c6-7aec8cc87156",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/S3.2",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Effects/Data Exposure"
             ],
@@ -3413,7 +3413,7 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "Resources:0/Id": "arn:aws:s3:::cgep-lab-dev-data-a3f098a8",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/S3.2/finding/db8a64dc-2057-4e36-99c6-7aec8cc87156"
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/S3.2/finding/db8a64dc-2057-4e36-99c6-7aec8cc87156"
             },
             "Resources": [
                 {
@@ -3482,13 +3482,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/S3.2/finding/e8d2eb03-fbd7-453e-a7b2-3858593bb728",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/S3.2/finding/e8d2eb03-fbd7-453e-a7b2-3858593bb728",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/S3.2",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Effects/Data Exposure"
             ],
@@ -3514,20 +3514,20 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:s3:::access-review-deploy-871159689384",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/S3.2/finding/e8d2eb03-fbd7-453e-a7b2-3858593bb728"
+                "Resources:0/Id": "arn:aws:s3:::access-review-deploy-111111111111",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/S3.2/finding/e8d2eb03-fbd7-453e-a7b2-3858593bb728"
             },
             "Resources": [
                 {
                     "Type": "AwsS3Bucket",
-                    "Id": "arn:aws:s3:::access-review-deploy-871159689384",
+                    "Id": "arn:aws:s3:::access-review-deploy-111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1",
                     "Details": {
                         "AwsS3Bucket": {
                             "OwnerId": "0d50655d5a002dbd06d0ae878ae1aa5a6063b83138c20ce55da70a7fb535dae4",
                             "CreatedAt": "2026-05-02T17:06:28.000Z",
-                            "Name": "access-review-deploy-871159689384"
+                            "Name": "access-review-deploy-111111111111"
                         }
                     }
                 }
@@ -3578,13 +3578,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/S3.2/finding/5ef4af84-f703-4b2d-8eea-2722be2fd271",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/S3.2/finding/5ef4af84-f703-4b2d-8eea-2722be2fd271",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/S3.2",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Effects/Data Exposure"
             ],
@@ -3610,25 +3610,25 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:s3:::access-review-reports-871159689384",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/S3.2/finding/5ef4af84-f703-4b2d-8eea-2722be2fd271"
+                "Resources:0/Id": "arn:aws:s3:::access-review-reports-111111111111",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/S3.2/finding/5ef4af84-f703-4b2d-8eea-2722be2fd271"
             },
             "Resources": [
                 {
                     "Type": "AwsS3Bucket",
-                    "Id": "arn:aws:s3:::access-review-reports-871159689384",
+                    "Id": "arn:aws:s3:::access-review-reports-111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1",
                     "Tags": {
                         "aws:cloudformation:stack-name": "access-review",
-                        "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:871159689384:stack/access-review/4edffa00-4652-11f1-b413-0e7edd51f2dd",
+                        "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:111111111111:stack/access-review/4edffa00-4652-11f1-b413-0e7edd51f2dd",
                         "aws:cloudformation:logical-id": "ReportBucket"
                     },
                     "Details": {
                         "AwsS3Bucket": {
                             "OwnerId": "0d50655d5a002dbd06d0ae878ae1aa5a6063b83138c20ce55da70a7fb535dae4",
                             "CreatedAt": "2026-05-02T18:11:26.000Z",
-                            "Name": "access-review-reports-871159689384"
+                            "Name": "access-review-reports-111111111111"
                         }
                     }
                 }
@@ -3679,13 +3679,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/S3.2/finding/5a850663-bf00-4ff5-aded-e91012b81c86",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/S3.2/finding/5a850663-bf00-4ff5-aded-e91012b81c86",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/S3.2",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Effects/Data Exposure"
             ],
@@ -3712,7 +3712,7 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "Resources:0/Id": "arn:aws:s3:::cgep-lab-grc-evidence-vault-cd91606f",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/S3.2/finding/5a850663-bf00-4ff5-aded-e91012b81c86"
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/S3.2/finding/5a850663-bf00-4ff5-aded-e91012b81c86"
             },
             "Resources": [
                 {
@@ -3781,13 +3781,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/S3.2/finding/005e8296-f34a-4df3-95a3-35438ae55e53",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/S3.2/finding/005e8296-f34a-4df3-95a3-35438ae55e53",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/S3.2",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Effects/Data Exposure"
             ],
@@ -3814,7 +3814,7 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "Resources:0/Id": "arn:aws:s3:::cgep-lab-dev-logs-a3f098a8",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/S3.2/finding/005e8296-f34a-4df3-95a3-35438ae55e53"
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/S3.2/finding/005e8296-f34a-4df3-95a3-35438ae55e53"
             },
             "Resources": [
                 {
@@ -3883,13 +3883,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/S3.2/finding/ad3d948f-2b44-4261-81fa-f276a2fd39cd",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/S3.2/finding/ad3d948f-2b44-4261-81fa-f276a2fd39cd",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/S3.2",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Effects/Data Exposure"
             ],
@@ -3915,20 +3915,20 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:s3:::config-bucket-871159689384",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/S3.2/finding/ad3d948f-2b44-4261-81fa-f276a2fd39cd"
+                "Resources:0/Id": "arn:aws:s3:::config-bucket-111111111111",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/S3.2/finding/ad3d948f-2b44-4261-81fa-f276a2fd39cd"
             },
             "Resources": [
                 {
                     "Type": "AwsS3Bucket",
-                    "Id": "arn:aws:s3:::config-bucket-871159689384",
+                    "Id": "arn:aws:s3:::config-bucket-111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1",
                     "Details": {
                         "AwsS3Bucket": {
                             "OwnerId": "0d50655d5a002dbd06d0ae878ae1aa5a6063b83138c20ce55da70a7fb535dae4",
                             "CreatedAt": "2026-05-21T21:32:41.000Z",
-                            "Name": "config-bucket-871159689384"
+                            "Name": "config-bucket-111111111111"
                         }
                     }
                 }
@@ -3979,13 +3979,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/CloudTrail.4/finding/33f4bb2b-c4ed-4e13-9eb9-956ca2357388",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/CloudTrail.4/finding/33f4bb2b-c4ed-4e13-9eb9-956ca2357388",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/CloudTrail.4",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -4011,13 +4011,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:cloudtrail:us-east-1:871159689384:trail/cgep-lab-mgmt",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/CloudTrail.4/finding/33f4bb2b-c4ed-4e13-9eb9-956ca2357388"
+                "Resources:0/Id": "arn:aws:cloudtrail:us-east-1:111111111111:trail/cgep-lab-mgmt",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/CloudTrail.4/finding/33f4bb2b-c4ed-4e13-9eb9-956ca2357388"
             },
             "Resources": [
                 {
                     "Type": "AwsCloudTrailTrail",
-                    "Id": "arn:aws:cloudtrail:us-east-1:871159689384:trail/cgep-lab-mgmt",
+                    "Id": "arn:aws:cloudtrail:us-east-1:111111111111:trail/cgep-lab-mgmt",
                     "Partition": "aws",
                     "Region": "us-east-1",
                     "Tags": {
@@ -4081,13 +4081,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/GuardDuty.1/finding/d9763de6-22b7-416a-8b00-b3f710fe7b40",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/GuardDuty.1/finding/d9763de6-22b7-416a-8b00-b3f710fe7b40",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/GuardDuty.1",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -4114,13 +4114,13 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "Amazon GuardDuty is not configured.",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/GuardDuty.1/finding/d9763de6-22b7-416a-8b00-b3f710fe7b40"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/GuardDuty.1/finding/d9763de6-22b7-416a-8b00-b3f710fe7b40"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -4183,13 +4183,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.57/finding/d76dc72e-d4c6-4fa6-98de-da6433f01b0a",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.57/finding/d76dc72e-d4c6-4fa6-98de-da6433f01b0a",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/EC2.57",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -4216,13 +4216,13 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "This VPC does not use a VPC endpoint for service ssm.",
-                "Resources:0/Id": "arn:aws:ec2:us-east-1:871159689384:vpc/vpc-0ab21243ab999c75c",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/EC2.57/finding/d76dc72e-d4c6-4fa6-98de-da6433f01b0a"
+                "Resources:0/Id": "arn:aws:ec2:us-east-1:111111111111:vpc/vpc-0ab21243ab999c75c",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/EC2.57/finding/d76dc72e-d4c6-4fa6-98de-da6433f01b0a"
             },
             "Resources": [
                 {
                     "Type": "AwsEc2Vpc",
-                    "Id": "arn:aws:ec2:us-east-1:871159689384:vpc/vpc-0ab21243ab999c75c",
+                    "Id": "arn:aws:ec2:us-east-1:111111111111:vpc/vpc-0ab21243ab999c75c",
                     "Partition": "aws",
                     "Region": "us-east-1",
                     "Details": {
@@ -4291,13 +4291,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.11/finding/793330e3-46de-419d-bd82-5677f97d1099",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.11/finding/793330e3-46de-419d-bd82-5677f97d1099",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/IAM.11",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -4323,13 +4323,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.11/finding/793330e3-46de-419d-bd82-5677f97d1099"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.11/finding/793330e3-46de-419d-bd82-5677f97d1099"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -4364,13 +4364,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.15/finding/647dd1bd-5ba8-4075-b0d6-2736de94cde3",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.15/finding/647dd1bd-5ba8-4075-b0d6-2736de94cde3",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/IAM.15",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -4396,13 +4396,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.15/finding/647dd1bd-5ba8-4075-b0d6-2736de94cde3"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.15/finding/647dd1bd-5ba8-4075-b0d6-2736de94cde3"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -4437,13 +4437,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.13/finding/4212d27e-2b0a-42c9-9e00-d98fbd273efe",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.13/finding/4212d27e-2b0a-42c9-9e00-d98fbd273efe",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/IAM.13",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -4469,13 +4469,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.13/finding/4212d27e-2b0a-42c9-9e00-d98fbd273efe"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.13/finding/4212d27e-2b0a-42c9-9e00-d98fbd273efe"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -4510,13 +4510,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.4/finding/400566bc-fdde-49d4-a7cd-5e586bafff33",
+            "Id": "arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.4/finding/400566bc-fdde-49d4-a7cd-5e586bafff33",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/IAM.4",
-            "AwsAccountId": "871159689384",
+            "AwsAccountId": "111111111111",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -4542,13 +4542,13 @@
                 "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::871159689384:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:871159689384:security-control/IAM.4/finding/400566bc-fdde-49d4-a7cd-5e586bafff33"
+                "Resources:0/Id": "arn:aws:iam::111111111111:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:111111111111:security-control/IAM.4/finding/400566bc-fdde-49d4-a7cd-5e586bafff33"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:871159689384",
+                    "Id": "AWS::::Account:111111111111",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }

@@ -46,6 +46,10 @@ terraform destroy -auto-approve
 - `cloudtrail-status.json` — `IsLogging` / `LatestDeliveryTime` from the live trail
 - `securityhub-hub.json` — hub ARN and subscription metadata
 - `security-hub-findings.json` — first 50 findings (`--max-results 50`, not the full account total)
+
+Note: the account ID in this directory's JSON files is redacted for public
+repo visibility. The signed, hashed bundle in the vault (see receipt.json)
+contains the original unredacted capture and is the authoritative artifact.
 - `receipt.json` — chain-of-custody record for the signed vault upload
 
 The findings, CloudTrail status, and hub metadata were bundled, SHA-256 hashed, signed with `cosign sign-blob` (keyless, Sigstore OIDC), and uploaded to the Lab 2.5 evidence vault — same pattern `grc-gate.yml` uses in CI, run by hand here since this lab isn't wired into that pipeline.

@@ -10,21 +10,21 @@
 
 /*
 resource "aws_s3_bucket" "config" {
-  bucket        = "${var.project_namex.hex}"
+  bucket        = "${var.project_name}-config-${random_id.suffix.hex}"
   force_destroy = true
 }
 
-resource "aws_s3_bucket_server_side_econfig" {
+resource "aws_s3_bucket_server_side_encryption_configuration" "config" {
   bucket = aws_s3_bucket.config.id
 
   rule {
-    apply_server_side_encryption_by_d
+    apply_server_side_encryption_by_default {
       sse_algorithm = "AES256"
     }
   }
 }
 
-resource "aws_s3_bucket_public_access
+resource "aws_s3_bucket_public_access_block" "config" {
   bucket                  = aws_s3_bucket.config.id
   block_public_acls       = true
   block_public_policy     = true
@@ -32,15 +32,15 @@ resource "aws_s3_bucket_public_access
   restrict_public_buckets = true
 }
 
-data "aws_iam_policy_document" "confi
+data "aws_iam_policy_document" "config" {
   statement {
-    sid       = "AWSConfigBucketPermi
+    sid       = "AWSConfigBucketPermissionsCheck"
     effect    = "Allow"
     actions   = ["s3:GetBucketAcl"]
     resources = [aws_s3_bucket.config.arn]
     principals {
       type        = "Service"
-      identifiers = ["config.amazonaw
+      identifiers = ["config.amazonaws.com"]
     }
   }
 
@@ -48,10 +48,10 @@ data "aws_iam_policy_document" "confi
     sid       = "AWSConfigBucketDelivery"
     effect    = "Allow"
     actions   = ["s3:PutObject"]
-    resources =["${aws_s3_bucket.config.arn}/AWSLogs/${data.aws_caller_identity.current.account_id}/Config/*"]
+    resources = ["${aws_s3_bucket.config.arn}/AWSLogs/${data.aws_caller_identity.current.account_id}/Config/*"]
     principals {
       type        = "Service"
-      identifiers = ["config.amazonaw
+      identifiers = ["config.amazonaws.com"]
     }
     condition {
       test     = "StringEquals"
@@ -61,9 +61,9 @@ data "aws_iam_policy_document" "confi
   }
 }
 
-resource "aws_s3_bucket_policy" "conf
+resource "aws_s3_bucket_policy" "config" {
   bucket = aws_s3_bucket.config.id
-  policy = data.aws_iam_policy_docume
+  policy = data.aws_iam_policy_document.config.json
 }
 
 data "aws_iam_policy_document" "config_assume" {
@@ -79,33 +79,33 @@ data "aws_iam_policy_document" "config_assume" {
 
 resource "aws_iam_role" "config" {
   name               = "${var.project_name}-config-recorder"
-  assume_role_policy = data.aws_iam_pme.json
+  assume_role_policy = data.aws_iam_policy_document.config_assume.json
 }
 
 resource "aws_iam_role_policy_attachment" "config" {
-  role       = aws_iam_role.config.na
+  role       = aws_iam_role.config.name
   policy_arn = "arn:aws:iam::aws:policy/service-role/AWS_ConfigRole"
 }
 
-resource "aws_config_configuration_re
+resource "aws_config_configuration_recorder" "this" {
   name     = "${var.project_name}-recorder"
   role_arn = aws_iam_role.config.arn
 
   recording_group {
     all_supported                 = true
-    include_global_resource_types = t
+    include_global_resource_types = true
   }
 }
 
-resource "aws_config_delivery_channel
+resource "aws_config_delivery_channel" "this" {
   name           = "${var.project_name}-delivery-channel"
-  s3_bucket_name = aws_s3_bucket.conf
+  s3_bucket_name = aws_s3_bucket.config.id
   depends_on     = [aws_config_configuration_recorder.this, aws_s3_bucket_policy.config]
 }
 
-resource "aws_config_configuration_re
+resource "aws_config_configuration_recorder_status" "this" {
   name       = aws_config_configuration_recorder.this.name
   is_enabled = true
   depends_on = [aws_config_delivery_channel.this]
 }
-*/  
+*/

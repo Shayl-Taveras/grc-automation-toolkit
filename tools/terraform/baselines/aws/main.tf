@@ -16,7 +16,7 @@ provider "aws" {
       Project         = var.project_name
       Environment     = var.environment
       ManagedBy       = "terraform"
-      ComplianceScope = "cge-p-lab"
+      ComplianceScope = "cgep-lab"
     }
   }
 }
