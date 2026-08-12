@@ -1,0 +1,7 @@
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate.backup
+tfplan
+evidence/lab-5-4/*.json
+!evidence/lab-5-4/.gitkeep
