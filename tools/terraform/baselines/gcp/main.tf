@@ -13,13 +13,3 @@ provider "google" {
 data "google_project" "current" {
   project_id = var.project_id
 }
-
-variable "project_id" {
-  description = "The GCP project ID to manage resources in."
-  type        = string
-}
-
-variable "region" {
-  description = "The GCP region to use for resources."
-  type        = string
-}
