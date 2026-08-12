@@ -32,7 +32,15 @@ terraform apply -auto-approve
 - `iam-audit-config.json` — project IAM policy showing the three `auditConfigs` entries
 - `terraform-state.json` — full `terraform show -json` output, the audit artifact for all 11 resources in one file
 
-Bundle, SHA-256 hash, sign with `cosign sign-blob` (keyless, Sigstore OIDC), and upload to the Lab 2.5 evidence vault — same manual pattern as Lab 5.2, since this lab isn't wired into `grc-gate.yml` either.
+Bundle, SHA-256 hash, sign with `cosign sign-blob` (keyless, Sigstore OIDC), and upload to the Lab 2.5 evidence vault — same manual pattern as Lab 5.2, since this lab isn't wired into `grc-gate.yml` either. The vault is AWS S3, cross-cloud from this GCP lab, same bucket Lab 5.2 used.
+
+```
+vault:      cgep-lab-grc-evidence-vault-cd91606f
+run_id:     lab-5-4-20260812T173301Z
+bundle_key: runs/lab-5-4-20260812T173301Z/evidence-lab-5-4-20260812T173301Z.tar.gz
+version_id: VEBrm3OyPPUeCbW8l_LOOlxKY1AxxMRR
+sha256:     8762d3834bae086138270e5b648a8b184268794e0da9720000110d52044592ae
+```
 
 ## Notes
 
