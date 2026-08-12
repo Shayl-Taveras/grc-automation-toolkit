@@ -1,0 +1,110 @@
+{
+  "auditConfigs": [
+    {
+      "auditLogConfigs": [
+        {
+          "logType": "DATA_WRITE"
+        },
+        {
+          "logType": "DATA_READ"
+        },
+        {
+          "logType": "ADMIN_READ"
+        }
+      ],
+      "service": "cloudkms.googleapis.com"
+    },
+    {
+      "auditLogConfigs": [
+        {
+          "logType": "DATA_WRITE"
+        },
+        {
+          "logType": "DATA_READ"
+        },
+        {
+          "logType": "ADMIN_READ"
+        }
+      ],
+      "service": "iam.googleapis.com"
+    },
+    {
+      "auditLogConfigs": [
+        {
+          "logType": "DATA_WRITE"
+        },
+        {
+          "logType": "DATA_READ"
+        },
+        {
+          "logType": "ADMIN_READ"
+        }
+      ],
+      "service": "storage.googleapis.com"
+    }
+  ],
+  "bindings": [
+    {
+      "members": [
+        "user:REDACTED-for-public-repo@example.com"
+      ],
+      "role": "roles/cloudkms.admin"
+    },
+    {
+      "members": [
+        "serviceAccount:service-628698946324@gcp-sa-cloudkms.iam.gserviceaccount.com"
+      ],
+      "role": "roles/cloudkms.serviceAgent"
+    },
+    {
+      "members": [
+        "serviceAccount:628698946324@cloudservices.gserviceaccount.com"
+      ],
+      "role": "roles/compute.instanceGroupManagerServiceAgent"
+    },
+    {
+      "members": [
+        "serviceAccount:service-628698946324@compute-system.iam.gserviceaccount.com"
+      ],
+      "role": "roles/compute.serviceAgent"
+    },
+    {
+      "members": [
+        "serviceAccount:service-628698946324@gcp-sa-gkenode.iam.gserviceaccount.com"
+      ],
+      "role": "roles/container.defaultNodeServiceAgent"
+    },
+    {
+      "members": [
+        "serviceAccount:service-628698946324@container-engine-robot.iam.gserviceaccount.com"
+      ],
+      "role": "roles/container.serviceAgent"
+    },
+    {
+      "members": [
+        "serviceAccount:service-628698946324@containerregistry.iam.gserviceaccount.com"
+      ],
+      "role": "roles/containerregistry.ServiceAgent"
+    },
+    {
+      "members": [
+        "user:REDACTED-for-public-repo@example.com"
+      ],
+      "role": "roles/owner"
+    },
+    {
+      "members": [
+        "serviceAccount:service-628698946324@gcp-sa-pubsub.iam.gserviceaccount.com"
+      ],
+      "role": "roles/pubsub.serviceAgent"
+    },
+    {
+      "members": [
+        "serviceAccount:cgep-grc-gate-sa@project-fdec857e-a12f-46d6-b30.iam.gserviceaccount.com"
+      ],
+      "role": "roles/viewer"
+    }
+  ],
+  "etag": "BwZY3KyccOU=",
+  "version": 1
+}

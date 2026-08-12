@@ -3,5 +3,7 @@ terraform.tfstate
 terraform.tfstate.*
 *.tfstate.backup
 tfplan
-evidence/lab-5-4/*.json
-!evidence/lab-5-4/.gitkeep
+evidence-lab-5-4-*.tar.gz
+evidence-lab-5-4-*.tar.gz.sha256
+evidence-lab-5-4-*.tar.gz.sig.bundle
+receipt.json

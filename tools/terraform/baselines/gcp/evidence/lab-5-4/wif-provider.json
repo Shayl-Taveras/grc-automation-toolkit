@@ -1,0 +1,13 @@
+{
+  "attributeCondition": "assertion.repository == 'Shayl-Taveras/grc-automation-toolkit'",
+  "attributeMapping": {
+    "attribute.repository": "assertion.repository",
+    "google.subject": "assertion.sub"
+  },
+  "displayName": "GitHub",
+  "name": "projects/628698946324/locations/global/workloadIdentityPools/github-actions/providers/github",
+  "oidc": {
+    "issuerUri": "https://token.actions.githubusercontent.com"
+  },
+  "state": "ACTIVE"
+}

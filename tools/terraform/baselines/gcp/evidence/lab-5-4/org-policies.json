@@ -1,0 +1,26 @@
+[
+  {
+    "booleanPolicy": {
+      "enforced": true
+    },
+    "constraint": "constraints/compute.requireOsLogin",
+    "etag": "CODZ8tMGEIDz50A=",
+    "updateTime": "2026-08-12T17:26:56.135920Z"
+  },
+  {
+    "booleanPolicy": {
+      "enforced": true
+    },
+    "constraint": "constraints/iam.disableServiceAccountKeyCreation",
+    "etag": "CODZ8tMGENj-qz0=",
+    "updateTime": "2026-08-12T17:26:56.128647Z"
+  },
+  {
+    "booleanPolicy": {
+      "enforced": true
+    },
+    "constraint": "constraints/storage.uniformBucketLevelAccess",
+    "etag": "CODZ8tMGEMig0UA=",
+    "updateTime": "2026-08-12T17:26:56.135549Z"
+  }
+]

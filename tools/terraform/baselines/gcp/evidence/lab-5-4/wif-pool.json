@@ -1,0 +1,6 @@
+{
+  "description": "WIF pool for grc-automation-toolkit CI",
+  "displayName": "GitHub Actions",
+  "name": "projects/628698946324/locations/global/workloadIdentityPools/github-actions",
+  "state": "ACTIVE"
+}
