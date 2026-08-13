@@ -1,0 +1,103 @@
+{
+  "component-definition": {
+    "uuid": "0d266061-df1f-4d00-9ec0-010d348a31d4",
+    "metadata": {
+      "title": "compliant-s3 module v1",
+      "last-modified": "2026-08-13T15:14:28.693+00:00",
+      "version": "1.0.0",
+      "oscal-version": "1.2.1",
+      "parties": [
+        {
+          "uuid": "4b3f507d-a352-4fb3-b456-f22b584fbe11",
+          "type": "organization",
+          "name": "Shayl Taveras / GRC Automation Toolkit"
+        }
+      ]
+    },
+    "components": [
+      {
+        "uuid": "d3a93497-9573-41ed-ae1e-ad3ccd2f6077",
+        "type": "software",
+        "title": "compliant-s3",
+        "description": "Reusable Terraform pattern for an AWS S3 primary bucket plus a dedicated access-log bucket. Hardcodes server-side encryption, versioning, public access block, access logging, and required compliance tags. Source: tools/terraform/primitives/compliant-s3.",
+        "purpose": "Provide a compliant-by-default S3 primitive that any team can adopt with three lines of consumer Terraform.",
+        "responsible-roles": [
+          { "role-id": "provider", "party-uuids": ["4b3f507d-a352-4fb3-b456-f22b584fbe11"] }
+        ],
+        "control-implementations": [
+          {
+            "uuid": "7621b833-a23a-4d87-afb4-4cc9fed11084",
+            "source": "https://raw.githubusercontent.com/usnistgov/oscal-content/main/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_catalog.json",
+            "description": "Implementation of NIST 800-53 Rev 5 controls satisfied by this module. Evidence is captured and signed by the grc-gate GitHub Actions workflow on every pull request against this module and uploaded to the evidence vault.",
+            "implemented-requirements": [
+              {
+                "uuid": "34835bc8-ad76-43da-8efe-1d358847c377",
+                "control-id": "sc-28",
+                "description": "AES-256 server-side encryption is enforced via aws_s3_bucket_server_side_encryption_configuration.primary. Hardcoded; consumers cannot override. Gated in CI by Conftest namespace compliance.sc28_aws.",
+                "props": [
+                  { "name": "implementation-status", "value": "implemented" },
+                  { "name": "terraform-resource", "value": "aws_s3_bucket_server_side_encryption_configuration.primary" }
+                ],
+                "links": [
+                  {
+                    "rel": "evidence",
+                    "href": "s3://cgep-lab-grc-evidence-vault-cd91606f/runs/31727137821/evidence-31727137821-70f468828d5072b5816ae6fe569cbcd53bc35966.tar.gz",
+                    "text": "Signed grc-gate pipeline bundle (GitHub Actions run 31727137821) containing terraform plan.json, plan.txt, conftest-results.json, and tfsec.sarif. Retained under COMPLIANCE lock for 400 days."
+                  }
+                ]
+              },
+              {
+                "uuid": "018acf22-e47f-4a01-8f69-0fe499173034",
+                "control-id": "ac-3",
+                "description": "Public access is fully blocked via aws_s3_bucket_public_access_block.primary (block_public_acls, block_public_policy, ignore_public_acls, restrict_public_buckets all true). Gated in CI by Conftest namespace compliance.ac3_aws.",
+                "props": [
+                  { "name": "implementation-status", "value": "implemented" },
+                  { "name": "terraform-resource", "value": "aws_s3_bucket_public_access_block.primary" }
+                ],
+                "links": [
+                  {
+                    "rel": "evidence",
+                    "href": "s3://cgep-lab-grc-evidence-vault-cd91606f/runs/31727137821/evidence-31727137821-70f468828d5072b5816ae6fe569cbcd53bc35966.tar.gz",
+                    "text": "Signed grc-gate pipeline bundle (GitHub Actions run 31727137821) containing terraform plan.json, plan.txt, conftest-results.json, and tfsec.sarif. Retained under COMPLIANCE lock for 400 days."
+                  }
+                ]
+              },
+              {
+                "uuid": "1a89fea1-2ec0-471e-a08f-e9ba48a52ff8",
+                "control-id": "au-3",
+                "description": "Server access logging is enabled via aws_s3_bucket_logging.primary, writing access-log records to a dedicated, encrypted, non-public log bucket (aws_s3_bucket.log). Not yet gated by a dedicated Conftest namespace; presence is verified from plan.json in the same evidence bundle.",
+                "props": [
+                  { "name": "implementation-status", "value": "implemented" },
+                  { "name": "terraform-resource", "value": "aws_s3_bucket_logging.primary" }
+                ],
+                "links": [
+                  {
+                    "rel": "evidence",
+                    "href": "s3://cgep-lab-grc-evidence-vault-cd91606f/runs/31727137821/evidence-31727137821-70f468828d5072b5816ae6fe569cbcd53bc35966.tar.gz",
+                    "text": "Signed grc-gate pipeline bundle (GitHub Actions run 31727137821) containing terraform plan.json, plan.txt, conftest-results.json, and tfsec.sarif. Retained under COMPLIANCE lock for 400 days."
+                  }
+                ]
+              },
+              {
+                "uuid": "028c3416-3571-4614-8ae0-43740b02ac51",
+                "control-id": "cm-6",
+                "description": "Object versioning is enabled via aws_s3_bucket_versioning.primary, and required compliance tags (Project, Environment, ManagedBy, ComplianceScope) are applied to every taggable resource via the provider's default_tags block, removing the chance of a resource being created untagged. Gated in CI by Conftest namespace compliance.cm6_aws.",
+                "props": [
+                  { "name": "implementation-status", "value": "implemented" },
+                  { "name": "terraform-resource", "value": "aws_s3_bucket_versioning.primary" }
+                ],
+                "links": [
+                  {
+                    "rel": "evidence",
+                    "href": "s3://cgep-lab-grc-evidence-vault-cd91606f/runs/31727137821/evidence-31727137821-70f468828d5072b5816ae6fe569cbcd53bc35966.tar.gz",
+                    "text": "Signed grc-gate pipeline bundle (GitHub Actions run 31727137821) containing terraform plan.json, plan.txt, conftest-results.json, and tfsec.sarif. Retained under COMPLIANCE lock for 400 days."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

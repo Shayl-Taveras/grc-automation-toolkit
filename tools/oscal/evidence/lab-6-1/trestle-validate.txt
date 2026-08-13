@@ -1,0 +1,28 @@
+trestle version: v5.0.0 based on OSCAL version 1.2.1
+
+$ trestle validate -f component-definitions/compliant-s3-v1/component-definition.json
+VALID: Model component-definition.json passed the Validator to confirm the model passes all registered validation tests.
+
+$ trestle validate -f profiles/cge-p-minimum/profile.json
+VALID: Model profile.json passed the Validator to confirm the model passes all registered validation tests.
+
+$ trestle author profile-resolve -n cge-p-minimum -o cge-p-minimum-resolved
+Validating local file access: profiles/cge-p-minimum/profile.json
+exit code: 0
+Resolved catalog contains exactly the four selected controls (plus parent
+control families, which OSCAL always carries as grouping context):
+  ac-3  - Access Enforcement
+  au-3  - Content of Audit Records
+  cm-6  - Configuration Settings
+  sc-28 - Protection of Information at Rest
+
+$ EVIDENCE_VAULT=cgep-lab-grc-evidence-vault-cd91606f scripts/verify-evidence.sh 31727137821
+=== 1. Integrity (SHA-256) ===
+  OK (19a45469c9b0b509307ff26663282ae08cea40625a356fda8dcc3ea13124c5d8)
+=== 2. Authenticity + timestamp (Cosign + Sigstore Rekor) ===
+Verified OK
+  OK (Cosign verified, Rekor entry exists)
+=== 3. Preservation (Object Lock retention) ===
+  OK (retain until 2027-09-17T17:44:16.890000+00:00)
+
+CHAIN INTACT for run 31727137821
